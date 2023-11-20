@@ -1,0 +1,36 @@
+.desktop{
+    display: flex;
+    background: #ccccff;
+    padding: 10px;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+.sitename{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+}
+#links{
+    display: flex;
+    gap: 10px;
+}
+#links li{
+    list-style: none;
+    display: inline;
+}
+#links a{
+    text-decoration: none;
+    color: black;
+    text-transform: #2c2a2a;
+    text-transform: uppercase;
+}
+#links a:hover{
+    color: rgb(138, 121, 121);
+    transition: all 1s;
+}
