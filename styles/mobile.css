@@ -7,4 +7,15 @@
     .card-receita{
         width: 80%;
     }
+    .ver-receita button{
+        width: 40vw;
+        padding: 20px;
+        font-size: 1.3rem;
+    }
+    .conteudo-destaque button{
+        width: 20vw;
+        padding: 15px;
+        font-size: 1.3rem;
+        margin: 10px 0;
+    }
 }

@@ -23,5 +23,12 @@
     padding: 10px;
 }
 .conteudo-destaque button{
-    
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+.conteudo-destaque button:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+    transition: all 1s;
 }
