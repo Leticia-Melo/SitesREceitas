@@ -1,6 +1,27 @@
 .destaque{
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     max-width: 100vw;
     height: 500px;
-    margin-top: 10px;
+    margin: 40px 0;
+    padding: 10px;
+    background-image: url(../assets/img/img-mousse-de-limao.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.conteudo-destaque{
+    background: #a7a7eb59;
+    width: 95vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+}
+.conteudo-destaque button{
+    
 }

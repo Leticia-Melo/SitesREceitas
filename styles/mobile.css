@@ -1,0 +1,10 @@
+@media(max-width:1140px) {
+    .card-receita{
+        width: 45%;
+    }
+}
+@media(max-width:800px) {
+    .card-receita{
+        width: 80%;
+    }
+}

@@ -1,4 +1,6 @@
 main{
+    display: flex;
+    flex-wrap: wrap;
     width: 80%;
     min-height: 80vh;
     margin: 10px auto;
@@ -9,9 +11,10 @@ main{
 .conteiner-receitas{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
     justify-content: center;
-    flex-basis: 100%;
+    gap: 10px;
+    flex-direction: row;
+    width: 100%;
 }
 .card-receita{
     display: flex;
@@ -22,6 +25,9 @@ main{
     padding: 10px;
     border-radius: 15px;
     box-shadow: 5px 10px 5px 5px #0000005d;
+}
+.card-receita h1{
+    text-transform: capitalize;
 }
 .conteudo-receita{
     display: flex;
