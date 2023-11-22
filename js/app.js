@@ -18,12 +18,53 @@ function carregarDestaque() {
             <div class="destaque">
                 <div class="conteudo-destaque">
                     <h1>${element.nome}</h1>
-                    <button data-btn-destaque>Ver receita</button>
+                    <button data-btn-modal data-id=${element.id}>Ver Receita</button>
                 </div>
             </div>
             `
         }
     });
+    document.querySelectorAll('[data-btn-modal]').forEach(btn => {
+        btn.addEventListener("click", (event) => {
+            const id = event.target.getAttribute('data-id')
+            const conteudo = receitas.find(getItem => getItem.id == id)
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+            bodytag.classList.add("hidden-scroll")
+            modal.classList.remove("hidden")
+            modal.classList.add("show")
+            modal.innerHTML = `
+            <div class="conteiner-modal">
+            <div class="header-modal">
+                <h1>${conteudo.nome}</h1>
+                <button data-btn-close><i class="fa-solid fa-circle-xmark fa-2x"></i></button>
+            </div>
+            <div class="conteudo-modal">
+                <div class="thumb-modal">
+                    <img src="assets/img/img-modal.jpg">
+                </div>
+                <div class="receita-modal">
+                    <div class="ingredientes-modal">
+                        <h2>Ingredientes</h2>
+                        ${conteudo.ingredientes}
+                    </div>
+                    <div class="preparo-modal">
+                        <h2>Preparo</h2>
+                        ${conteudo.preparo}
+                    </div>
+                </div>
+            </div>
+        </div>
+            `
+            document.querySelector('[data-btn-close]').addEventListener("click", () => {
+                bodytag.classList.remove("hidden-scroll")
+                modal.classList.remove("show")
+                modal.classList.add("hidden")
+            })
+        })
+    })
 }
 carregarDestaque()
 function carregarReceitas() {
@@ -83,7 +124,6 @@ function carregarReceitas() {
             })
         })
     })
-
 }
 buttonHome.addEventListener("click", () => {
     conteinerReceitas.innerHTML = ""
@@ -149,7 +189,6 @@ buttonDoces.addEventListener("click", () => {
             })
         })
     })
-
 })
 buttonSalgados.addEventListener("click", () => {
     conteinerReceitas.innerHTML = ""
@@ -211,6 +250,5 @@ buttonSalgados.addEventListener("click", () => {
             })
         })
     })
-
 })
 export default carregarReceitas
