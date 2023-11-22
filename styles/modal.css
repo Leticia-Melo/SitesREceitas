@@ -1,0 +1,62 @@
+.modal{
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    top: 0;
+    position: absolute;
+}
+.conteiner-modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #7986cb;
+    gap: 20px;
+}
+.header-modal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-transform: capitalize;
+}
+.header-modal button{
+    background: none;
+    border: none;
+    color: rgb(184, 108, 108);
+}
+.header-modal button:hover{
+    cursor: pointer;
+    color: rgb(156, 86, 86);
+    transition: all 1s;
+}
+.conteudo-modal{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    width: 100%;
+}
+.thumb-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thumb-modal img{
+    max-width: 60vw;
+    border-radius: 20%;
+    object-fit: contain;
+}
+.receita-modal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.receita-modal h2{
+    padding: 10px 0;
+}

@@ -4,8 +4,13 @@ const receitas=[
         "destaque":1,
         "categoria":"doces",
         "nome":"brigadeiro",
-        "tumb":"img-brigadeiro.jpg",
-        "ingredientes":['1 caixa de leite condensado','1 colher (sopa) de margarina sem sal','7 colheres (sopa) de achocolatado ou 4 colheres (sopa) de chocolate em pó','chocolate granulado'],
+        "thumb":"img-brigadeiro.jpg",
+        "ingredientes":`<ul>
+        <li>1 caixa de leite condensado</li>
+        <li>1 colher (sopa) de margarina sem sal</li>
+        <li>7 colheres (sopa) de achocolatado ou 4 colheres (sopa) de chocolate em pó</li>
+        <li>chocolate granulado</li>
+        </ul>`,
         "preparo":`<ul>
         <li>Em uma panela funda, acrescente o leite condensado, a margarina e o chocolate em pó.</li>
         <li>Cozinhe em fogo médio e mexa até que o brigadeiro comece a desgrudar da panela.</li>
@@ -17,8 +22,14 @@ const receitas=[
         "destaque":0,
         "categoria":"doces",
         "nome":"beijinho",
-        "tumb":"img-beijinho.jpg",
-        "ingredientes":['2 latas de leite condensado','2 colheres (sopa) de manteiga','300 g de coco fresco ralado (fino)','açúcar cristal','cravos-da-índia a gosto'],
+        "thumb":"img-beijinho.jpg",
+        "ingredientes":`<ul>
+        <li>2 latas de leite condensado</li>
+        <li>2 colheres (sopa) de manteiga</li>
+        <li>300 g de coco fresco ralado (fino)</li>
+        <li>açúcar cristal</li>
+        <li>cravos-da-índia a gosto</li>
+        </ul>`,
         "preparo":`<ul>
         <li>Numa panela, misture o leite condensado, a manteiga e o coco ralado.</li>
         <li>Leve ao fogo e misture por aproximadamente 15 minutos.</li>
@@ -31,8 +42,13 @@ const receitas=[
         "destaque":0,
         "categoria":"doces",
         "nome":"mousse de limão",
-        "tumb":"img-mousse-de-limao.jpg",
-        "ingredientes":['1 lata de leite condensado','1 lata de creme de leite','1/2 copo (americano) de suco puro de limão','Bis de limão'],
+        "thumb":"img-mousse-de-limao.jpg",
+        "ingredientes":`<ul>
+        <li>1 lata de leite condensado</li>
+        <li>1 lata de creme de leite</li>
+        <li>1/2 copo (americano) de suco puro de limão</li>
+        <li>Bis de limão</li>
+        </ul>`,
         "preparo":`<ul>
         <li>No liquidificador, bata o leite condensado e o creme de leite por 3 minutos.</li>
         <li>Acrescente aos poucos o suco de limão e continue batendo.</li>
@@ -45,8 +61,13 @@ const receitas=[
         "destaque":0,
         "categoria":"doces",
         "nome":"gelatina colorida",
-        "tumb":"img-gelatina-colorida.jpg",
-        "ingrediente":['4 caixas de gelatina (sabores a gosto)','1 lata de leite condensado','1 lata de creme de leite','1 gelatina sabor morango'],
+        "thumb":"img-gelatina-colorida.jpg",
+        "ingredientes":`<ul>
+        <li>4 caixas de gelatina (sabores a gosto)</li>
+        <li>1 lata de leite condensado</li>
+        <li>1 lata de creme de leite</li>
+        <li>1 gelatina sabor morango</li>
+        </ul>`,
         "preparo":`<ul>
         <li>Prepare as 4 caixas de gelatina separadas de acordo com as instruções do fabricante, corte em quadradinhos e leve à geladeira.</li>
         <li>Bata no liquidificador o leite condensado, o creme de leite e a gelatina sabor morango dissolvida em 1 copo de água fria e 1 copo de água quente, por aproximadamente 5 minutos.</li>
@@ -58,8 +79,13 @@ const receitas=[
         "destaque":0,
         "categoria":"doces",
         "nome":"queijadinha",
-        "tumb":"img-queijadinha.jpg",
-        "ingrediente":['1 lata de leite condensado','2 gemas peneiradas','3 colheres de queijo ralado','1 xícara de coco ralado'],
+        "thumb":"img-queijadinha.jpg",
+        "ingredientes":`<ul>
+        <li>1 lata de leite condensado</li>
+        <li>2 gemas peneiradas</li>
+        <li>3 colheres de queijo ralado</li>
+        <li>1 xícara de coco ralado</li>
+        </ul>`,
         "preparo":`<ul>
         <li>Misturar o leite condensado com as gemas, até o creme ficar consistente.</li>
         <li>Colocar no creme, o queijo e o coco.</li>
@@ -71,8 +97,13 @@ const receitas=[
         "destaque":0,
         "categoria":"doces",
         "nome":"pé de moleque",
-        "tumb":"img-pe-de-moleque.jpg",
-        "ingrediente":['3 xícaras de chá de amendoim crú','2 xícaras de chá de açúcar','1 xícara de chá de Karo','1 colher de chá de bicarbonato de sódio'],
+        "thumb":"img-pe-de-moleque.jpg",
+        "ingredientes":`<ul>
+        <li>3 xícaras de chá de amendoim cru</li>
+        <li>2 xícaras de chá de açúcar</li>
+        <li>1 xícara de chá de Karo</li>
+        <li>1 colher de chá de bicarbonato de sódio</li>
+        </ul>`,
         "preparo":`<ul>
         <li>Em recipiente fundo, mistura-se o amendoim, o açúcar e o Karo, leva-se ao forno por 10 minutos em potência alta, mexendo algumas vezes.</li>
         <li>Retiro do microondas acrescente o bicarbonato, mexa e despeje imediatamente em pedra mármore untada com margarina.Deixe esfriar e quebre em pedaços.</li>
@@ -83,10 +114,15 @@ const receitas=[
         "destaque":0,
         "categoria":"salgados",
         "nome":"massa de panqueca",
-        "tumb":"img-panqueca.jpg",
-        "ingrediente":['2 xícaras (chá) de farinha de trigo','2 xícaras (chá) de leite','3 ovos','1 pitada de sal'],
+        "thumb":"img-panqueca.jpg",
+        "ingredientes":`<ul>
+        <li>2 xícaras (chá) de farinha de trigo</li>
+        <li>2 xícaras (chá) de leite</li>
+        <li>3 ovos</li>
+        <li>1 pitada de sal</li>
+        </ul>`,
         "preparo":`<ul>
-        <li>Bata todos os ingredientes no liquidificador por 2 minutos.</li>
+        <li>Bata todos os ingredientess no liquidificador por 2 minutos.</li>
         <li>Em seguida desligue e, com uma colher, misture a farinha que grudou no copo do liquidificador.</li>
         <li>Bata novamente só para misturar e reserve.</li>
         <li>Unte a frigideira com um fio de óleo e leve ao fogo até aquecer</li>
@@ -99,10 +135,19 @@ const receitas=[
         "destaque":0,
         "categoria":"salgados",
         "nome":"pão",
-        "tumb":"img-pao.jpg",
-        "ingrediente":['1 copo de água','1 kg de farinha de trigo','1 copo de leite','1 xícara de açúcar','1 xícara de óleo','3 ovos','1 pitada de sal','2 colheres (sopa) de fermento para pão (50g)'],
+        "thumb":"img-pao.jpg",
+        "ingredientes":`<ul>
+        <li>1 copo de água</li>
+        <li>1 kg de farinha de trigo</li>
+        <li>1 copo de leite</li>
+        <li>1 xícara de açúcar</li>
+        <li>1 xícara de óleo</li>
+        <li>3 ovos</li>
+        <li>1 pitada de sal</li>
+        <li>2 colheres (sopa) de fermento para pão (50g)</li>
+        </ul>`,
         "preparo":`<ul>
-        <li>Bata todos os ingredientes no liquidificador, exceto a farinha de trigo.</li>
+        <li>Bata todos os ingredientess no liquidificador, exceto a farinha de trigo.</li>
         <li>Despeje numa vasilha grande e coloque a farinha aos poucos, mexendo bem até ficar em ponto de uma massa mole.</li>
         <li>Coloque numa assadeira bem grande untada com margarina para crescer.</li>
         <li>Tempo para crescer a massa: 1 hora.</li>
@@ -114,10 +159,17 @@ const receitas=[
         "destaque":0,
         "categoria":"salgados",
         "nome":"pão de queijo",
-        "tumb":"img-pao-de-queijo.jpg",
-        "ingrediente":['1 copo de óleo','2 copos de leite','3 ovos','1 kg de polvilho (doce)','2 saquinhos de queijo ralado','1 pitada de sal'],
+        "thumb":"img-pao-de-queijo.jpg",
+        "ingredientes":`<ul>
+        <li>1 copo de óleo</li>
+        <li>2 copos de leite</li>
+        <li>3 ovos</li>
+        <li>1 kg de polvilho (doce)</li>
+        <li>2 saquinhos de queijo ralado</li>
+        <li>1 pitada de sal</li>
+        </ul>`,
         "preparo":`<ul>
-        <li>Bater no liquidificador todos os ingredientes.</li>
+        <li>Bater no liquidificador todos os ingredientess.</li>
         <li>Como o resultado ficará um tanto líquido, coloque em forminhas (empadinhas) e as forminhas em uma forma maior para levar ao forno, previamente aquecido.</li>
         <li>Desenforme ainda morno (não quente).</li>
         </ul>`
@@ -127,10 +179,20 @@ const receitas=[
         "destaque":0,
         "categoria":"salgados",
         "nome":"salpicão de frango",
-        "tumb":"img-salpicao.jpg",
-        "ingrediente":['500 g de peito de frango cozido e desfiado','2 cenouras grandes raladas','1 lata de ervilha','1 lata de milho verde','200 g de uva passa','1 maçã','maionese a gosto','cheiro-verde a gosto','batata palha a gosto'],
+        "thumb":"img-salpicao.jpg",
+        "ingredientes":`<ul>
+        <li>500 g de peito de frango cozido e desfiado</li>
+        <li>2 cenouras grandes raladas</li>
+        <li>1 lata de ervilha</li>
+        <li>1 lata de milho verde</li>
+        <li>200 g de uva passa</li>
+        <li>1 maçã</li>
+        <li>maionese a gosto</li>
+        <li>cheiro-verde a gosto</li>
+        <li>batata palha a gosto</li>
+        </ul>`,
         "preparo":`<ul>
-        <li>Misture todos os ingredientes, menos a batata palha.</li>
+        <li>Misture todos os ingredientess, menos a batata palha.</li>
         <li>Depois de tudo misturado, forre com a batata palha.</li>
         <li>Depois, e só servir.</li>
         </ul>`
@@ -140,8 +202,15 @@ const receitas=[
         "destaque":0,
         "categoria":"salgados",
         "nome":"molho branco",
-        "tumb":"img-molho-branco.jpg",
-        "ingrediente":['2 xícaras de leite','2 colheres (sopa) de manteiga','2 colheres (sopa) de farinha de trigo','sal a gosto','noz-moscada a gosto','pimenta-do-reino branca a gosto'],
+        "thumb":"img-molho-branco.jpg",
+        "ingredientes":`<ul>
+        <li>2 xícaras de leite</li>
+        <li>2 colheres (sopa) de manteiga</li>
+        <li>2 colheres (sopa) de farinha de trigo</li>
+        <li>sal a gosto</li>
+        <li>noz-moscada a gosto</li>
+        <li>pimenta-do-reino branca a gosto</li>
+        </ul>`,
         "preparo":`<ul>
         <li>Ferva o leite.</li>
         <li>Derreta a manteiga, junte a farinha e mexa bem até obter uma pasta homogênea.</li>
@@ -154,8 +223,21 @@ const receitas=[
         "destaque":0,
         "categoria":"salgados",
         "nome":"feijão tropeiro",
-        "tumb":"img-feijao-tropeiro.jpg",
-        "ingrediente":['150 g de bacon picadinho','250 g de linguiça calabresa picadinha','1 xícara (café) de azeite','2 cebolas picadinhas','6 dentes de alho amassados','500 g de feijão cozido e escorrido','1 cubo de caldo de bacon','4 ovos fritos inteiros e picadinhos','cheiro-verde a gosto','1 e 1/2 colher de farinha de mandioca crua','sal a gosto','pimenta a gosto'],
+        "thumb":"img-feijao-tropeiro.jpg",
+        "ingredientes":`<ul>
+        <li>150 g de bacon picadinho</li>
+        <li>250 g de linguiça calabresa picadinha</li>
+        <li>1 xícara (café) de azeite</li>
+        <li>2 cebolas picadinhas</li>
+        <li>6 dentes de alho amassados</li>
+        <li>500 g de feijão cozido e escorrido</li>
+        <li>1 cubo de caldo de bacon</li>
+        <li>4 ovos fritos inteiros e picadinhos</li>
+        <li>cheiro-verde a gosto</li>
+        <li>1 e 1/2 colher de farinha de mandioca crua</li>
+        <li>sal a gosto</li>
+        <li>pimenta a gosto</li>
+        </ul>`,
         "preparo":`<ul>
         <li>Coloque o azeite em uma panela e frite o bacon e a linguiça separadamente, depois reserve.</li>
         <li>Na mesma panela, frite a cebola e o alho, junte o feijão escorrido e o caldo de bacon.</li>
