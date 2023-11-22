@@ -7,10 +7,6 @@
     height: 500px;
     margin: 40px 0;
     padding: 10px;
-    background-image: url(../assets/img/img-mousse-de-limao.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 .conteudo-destaque{
     background: #a7a7eb59;

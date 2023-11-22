@@ -1,7 +1,7 @@
 const receitas=[ 
     { 
         "id":1,
-        "destaque":1,
+        "destaque":0,
         "categoria":"doces",
         "nome":"brigadeiro",
         "thumb":"img-brigadeiro.jpg",
@@ -132,7 +132,7 @@ const receitas=[
     },
     {
         "id":8,
-        "destaque":0,
+        "destaque":1,
         "categoria":"salgados",
         "nome":"pão",
         "thumb":"img-pao.jpg",
