@@ -17,7 +17,7 @@ function carregarDestaque() {
             destaque.innerHTML = `
             <div class="destaque">
                 <div class="conteudo-destaque">
-                    <h1>${element.nome}</h1>
+                    <h1>Destaque - Receita de ${element.nome}</h1>
                     <button data-btn-modal data-id=${element.id}>Ver Receita</button>
                 </div>
             </div>

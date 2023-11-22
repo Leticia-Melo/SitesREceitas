@@ -26,6 +26,9 @@
     width: 100%;
     text-transform: capitalize;
 }
+.header-modal h1{
+    font-size: 2.0rem;
+}
 .header-modal button{
     background: none;
     border: none;
@@ -58,5 +61,6 @@
     gap: 20px;
 }
 .receita-modal h2{
+    font-size: 2.0rem;
     padding: 10px 0;
 }
